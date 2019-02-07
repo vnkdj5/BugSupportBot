@@ -21,12 +21,7 @@ const bankingServices = {
     fname: 'Krishna',
     lname: 'Kumar',
     address: {
-      line1: 'B 101 Amar CHS Ltd',
-      line2: 'Bandra West',
-      city: 'Mumbai',
-      state: 'MH',
-      zip: 400001,
-      country: 'India'
+      zip: 400001
     },
     customer_id: 7829706,
     tone_anger_threshold: 0.7
@@ -41,11 +36,6 @@ const bankingServices = {
       balance: 12800,
       number: 'xxx8990',
       type: 'savings'
-    },
-    {
-      balance: 7600,
-      number: 'xxx0744',
-      type: 'current'
     },
     {
       balance: 550,
@@ -95,12 +85,6 @@ const bankingServices = {
       number: 'xxx0744',
       type: 'savings',
       bank: 'ING'
-    },
-    {
-      name: 'Rajesh',
-      number: 'xxx0744',
-      type: 'savings',
-      bank: 'Finance Bank'
     },
     {
       name: 'Ramesh',
