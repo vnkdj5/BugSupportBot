@@ -1,0 +1,1794 @@
+{
+  "name": "watson-bugbot",
+  "intents": [
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "theory",
+      "examples": [
+        {
+          "text": "explain"
+        },
+        {
+          "text": "i want"
+        },
+        {
+          "text": "I want to know"
+        },
+        {
+          "text": "express"
+        },
+        {
+          "text": "know about"
+        },
+        {
+          "text": "tell me about"
+        },
+        {
+          "text": "know"
+        },
+        {
+          "text": "content"
+        },
+        {
+          "text": "data"
+        },
+        {
+          "text": "meaning"
+        },
+        {
+          "text": "definition"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "alright"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "error",
+      "examples": [
+        {
+          "text": "problem"
+        },
+        {
+          "text": "null pointer exception"
+        },
+        {
+          "text": "exception"
+        },
+        {
+          "text": "error"
+        },
+        {
+          "text": "fix"
+        },
+        {
+          "text": "bug"
+        }
+      ]
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "introduction",
+      "examples": [
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "are you watson"
+        },
+        {
+          "text": "What do they call you?"
+        },
+        {
+          "text": "What is you name ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How do I use you?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Tell me about your life"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "install",
+      "examples": [
+        {
+          "text": "put"
+        },
+        {
+          "text": "installation"
+        },
+        {
+          "text": "steps"
+        },
+        {
+          "text": "download"
+        },
+        {
+          "text": "install android"
+        },
+        {
+          "text": "java"
+        },
+        {
+          "text": "add"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "lang",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "java",
+          "synonyms": [
+            "jdbc",
+            "servlet",
+            "jdk",
+            "jvm",
+            ".java"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nodejs",
+          "synonyms": [
+            "node.js",
+            "node"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ruby",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "javascript",
+          "synonyms": [
+            "scripting",
+            "jquery",
+            "ajax",
+            "jscript",
+            "js"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "android",
+          "synonyms": [
+            "os",
+            "smarphone",
+            "ios",
+            "app",
+            "droid",
+            "build",
+            "gradle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "python",
+          "synonyms": [
+            "erlang",
+            "jython",
+            "flask",
+            "django",
+            "py"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "yes_no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "error_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "IllegalArgumentException",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "unhandled",
+            "throwable"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Unreachable Statement",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "unreachable",
+            "unreachable statement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NoSuchElement",
+          "synonyms": [
+            "runtime",
+            "exception",
+            "unhandled",
+            "throwable",
+            "no such element",
+            "no such element exception"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Missing Return Statement",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "return",
+            "missing",
+            "missing statement",
+            "return statement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "missing",
+          "synonyms": [
+            "compile time",
+            "parentesis",
+            "brackets",
+            "semicolon",
+            "missing semicolon",
+            "missing bracket",
+            "unbalanced"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Incompatible Types",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "datatype",
+            "type",
+            "incompatible types"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Illegal start",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "illegal expression",
+            "expression"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cannot Find Symbol",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "cannot find",
+            "symbol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Invalid Method Declaration",
+          "synonyms": [
+            "compile time",
+            "exception",
+            "return type",
+            "brackets"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NullPointerException",
+          "synonyms": [
+            "runtime",
+            "exception",
+            "unhandled",
+            "throwable",
+            "null",
+            "pointer",
+            "null pointer",
+            "null pointer exception",
+            "java exception"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NumberFormatException",
+          "synonyms": [
+            "runtime",
+            "exception",
+            "unhandled",
+            "throwable",
+            "number format",
+            "number format exception"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ArithmeticException",
+          "synonyms": [
+            "runtime",
+            "exception",
+            "unhandled",
+            "throwable",
+            "arithmetic exception"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ArrayIndexOutOfBound",
+          "synonyms": [
+            "runtime",
+            "exception",
+            "unhandled",
+            "throwable",
+            "array index",
+            "out of bound",
+            "array index out of bound"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "concept",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cloud",
+          "synonyms": [
+            "server",
+            "upload"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "android",
+          "synonyms": [
+            "app",
+            "gradle",
+            "application"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "java",
+          "synonyms": [
+            "jdbc",
+            "servlet",
+            "jdk",
+            "jvm",
+            ".java"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nodejs",
+          "synonyms": [
+            "node.js",
+            "node"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "npm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ibm",
+          "synonyms": [
+            "international business machine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "error",
+          "synonyms": [
+            "exception",
+            "bug"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1549000902220",
+      "metadata": {},
+      "variable": "$concept",
+      "dialog_node": "slot_17_1549001063711"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, happy to assist you.",
+            "Ok!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1549055663179",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_7_1549055747684",
+      "previous_sibling": "handler_5_1549055663179"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Your feedback is valuable . Thank you."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1549055663179",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1549055747684",
+      "previous_sibling": "handler_7_1549055747684"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1549055663179",
+      "context": {
+        "yes_no": "@yes_no"
+      },
+      "metadata": {},
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_5_1549055663179",
+      "previous_sibling": "handler_6_1549055663179"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Was the information helpful?"
+      },
+      "parent": "slot_4_1549055663179",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1549055663179"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify language correctly.",
+            "I currently donot have data on this language. Please try again later."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1548999937990",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1549000553354",
+      "previous_sibling": "handler_3_1548999937990"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1548999937990",
+      "context": {
+        "lang": "@lang"
+      },
+      "metadata": {},
+      "conditions": "@lang",
+      "event_name": "input",
+      "dialog_node": "handler_3_1548999937990",
+      "previous_sibling": "handler_4_1548999937990"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Which language do you have error in ?"
+      },
+      "parent": "slot_2_1548999937990",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1548999937990"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_17_1549001063711",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1549001746722",
+      "previous_sibling": "handler_18_1549001063711"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1549001063711",
+      "context": {
+        "concept": "@concept"
+      },
+      "metadata": {},
+      "conditions": "@concept",
+      "event_name": "input",
+      "dialog_node": "handler_18_1549001063711",
+      "previous_sibling": "handler_19_1549001063711"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please specify the domain, about which you would like to know more.<br>I have a few suggestions for you :  <ul><li>Java</li><li>python</li><li>android</li><li>nodejs</li><li>javascript</li></ul>"
+      },
+      "parent": "slot_17_1549001063711",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_19_1549001063711"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1548999747795",
+      "metadata": {},
+      "variable": "$error_name",
+      "dialog_node": "slot_5_1549000011550",
+      "previous_sibling": "slot_2_1548999937990"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1548999747795",
+      "metadata": {},
+      "variable": "$lang",
+      "dialog_node": "slot_2_1548999937990"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_13_1549000971628",
+      "metadata": {},
+      "variable": "$lang",
+      "dialog_node": "slot_14_1549000986132"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What would you like to install?"
+      },
+      "parent": "slot_14_1549000986132",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_16_1549000986132",
+      "previous_sibling": "handler_15_1549000986132"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1549000986132",
+      "context": {
+        "lang": "@lang"
+      },
+      "metadata": {},
+      "conditions": "@lang",
+      "event_name": "input",
+      "dialog_node": "handler_15_1549000986132"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1549086501241",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1549086501241",
+      "previous_sibling": "handler_5_1549086501241"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1549086501241",
+      "event_name": "input",
+      "dialog_node": "handler_5_1549086501241"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry for the inconvenience, I currently donot have solution to this error.",
+            "Sorry, I currently donot have solution to this error. Will get back on this shortly."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1549000011550",
+      "event_name": "nomatch",
+      "dialog_node": "handler_2_1549000275084",
+      "previous_sibling": "handler_6_1549000011550"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1549000011550",
+      "context": {
+        "error_name": "@error_name"
+      },
+      "metadata": {},
+      "conditions": "@error_name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1549000011550",
+      "previous_sibling": "handler_7_1549000011550"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What is the error you have encountered"
+      },
+      "parent": "slot_5_1549000011550",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1549000011550"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anything else I can assist you with ?"
+              },
+              {
+                "text": "Would you like to know anything else ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1549053727372",
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_2_1549054156015",
+      "previous_sibling": "slot_4_1549055663179"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1549053727372",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1549000902220"
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_3_1549055159751",
+      "previous_sibling": "node_2_1549054156015"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1549053727372",
+      "metadata": {},
+      "variable": "$yes_no",
+      "dialog_node": "slot_4_1549055663179"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@sys-person hello! $username is a nice name :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549004545172",
+      "context": {
+        "username": "@sys-person.literal"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_5_1549005420491"
+    },
+    {
+      "type": "slot",
+      "parent": "Anything else",
+      "dialog_node": "slot_4_1549086501241"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Bye.Thank you for using the help service ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_8_1549000831068",
+      "previous_sibling": "node_9_1549000902220"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The installation steps of $lang are : <br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "res": "Installation Response",
+        "action": {
+          "lang": "@lang",
+          "lookup": "install"
+        },
+        "wikilink": "<a href = 'https://stackoverflow.com' target ='_blank'>link</a>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#install",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1549000971628",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1548999747795",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some points on $concept : <br>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "res": "Theory Response",
+        "action": {
+          "lang": "@lang",
+          "lookup": "theory"
+        },
+        "wikilink": "<a href = 'https://www.wikipedia.org/' target ='_blank'>link</a>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#theory",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1549000902220",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_13_1549000971628",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "action": {
+          "lookup": "discovery"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1549000831068",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Bugbot! What's yours?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#introduction || #General_Agent_Capabilities || #General_About_You",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1549004545172",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The solution to error $error_name in $lang is "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "res": "Solution Response",
+        "action": {
+          "lang": "@lang",
+          "lookup": "error"
+        },
+        "wikilink": "<a href = 'https://stackoverflow.com' target ='_blank'>link</a>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#error",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1548999747795",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1549053727372",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@yes_no || #General_Positive_Feedback",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1549053727372",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1549000747533",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_7_1549000747533",
+      "previous_sibling": "node_3_1549004545172"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I'm bugbot ! How can I help you today ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "a4d8a68f-63eb-4534-a1d7-ad2250cb3977",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

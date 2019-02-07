@@ -6,7 +6,7 @@
 
 body {
     background-color: white;
-    background-image: url("../img/OFN.jpg");
+    
     background-repeat:no-repeat;
     background-position:left;
     background-attachment:fixed;
@@ -81,7 +81,7 @@ div {
   right:8%;
   text-align: left;
   max-width: 25rem;
-  min-width: 9.375rem;
+  min-width: 25em;
   border-size:2px;
   border-style:none;
   border-color:none;

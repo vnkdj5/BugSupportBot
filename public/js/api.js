@@ -1,3 +1,5 @@
+/* eslint-disable no-var */
+/* eslint-disable require-jsdoc */
 // The Api module is designed to handle all interactions with the server
 
 var Api = (function() {
