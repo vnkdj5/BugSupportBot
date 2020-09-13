@@ -1,25 +1,24 @@
 {
- "packageList": [ {
-  "id":  "BL01"
-  "code": "BL01",
-  "Name": "Blood Test",
-  isTest : true
-  "charges": 400
-  },
-   {
-  "id":  "BL02"
-  "code": "BL02",
-  "Name": "Blood Suger -T",
-  isTest : true
-  "charges": 300
-  }
-  ,
-   {
-  "id":  "BL03"
-  "code": "BL03",
-  "Name": "Blood Fasting",
-  isTest : true
-  "charges": 500
-  }
-  ]
+	"packageList": [{
+			"id": "BL01",
+			"code": "BL01",
+			"Name": "Blood Test",
+			"isTest": true,
+			"charges": 400
+		},
+		{
+			"id": "BL02",
+			"code": "BL02",
+			"Name": "Blood Suger -T",
+			"isTest": true,
+			"charges": 300
+		},
+		{
+			"id": "BL03",
+			"code": "BL03",
+			"Name": "Blood Fasting",
+			"isTest": true,
+			"charges": 500
+		}
+	]
 }
